@@ -29,7 +29,6 @@ while true; do
     
 # Check for new opened sessions (KEY AUTH)
 	    elif [[ $line == *"$target_string"* && $line == *"$target_string_3"* ]]; then
-#	notify-send "SSH ALERT" "<b>New SSH Connection	User:</b> $(echo $line | awk '{print $9}')\n  <b>IP:</b>$(echo $line | awk '{print $11}')"
 notify-send "SSH ALERT --- New SSH Connection" "<b>User:</b> $(echo $line | awk '{print $9}')	<b>IP:</b> $(echo $line | awk '{print $11}')"
 
 # check for new closed sessions
