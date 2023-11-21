@@ -2,7 +2,7 @@
 
 This Bash script monitors the SSH log file (`/var/log/auth.log` by default) for various SSH-related events and sends desktop notifications using `notify-send` when specific conditions are met. The script is designed to provide alerts for new SSH connections, closed sessions, failed login attempts, and multiple failed login attempts.
 
-![Alert Screenshot](./Screenshot/SSH_Alert_Screenshot.png?raw=true "SSH Alert Screenshot")
+![Alert Screenshot](./Screenshot/SSH_Alert_Screenshot_2.png?raw=true "SSH Alert Screenshot")
 
 ## Features
 
