@@ -33,8 +33,8 @@ This Bash script monitors the SSH log file (`/var/log/auth.log` by default) for 
 
 ## Usage
 
-1. Ensure the script has execute permissions: `chmod +x ssh_alert.sh`
-2. Run the script: `./ssh_alert.sh`
+1. Ensure the script has execute permissions: `chmod +x SSH_Alert_Linux.sh`
+2. Run the script: `./SSH_Alert_Linux.sh`
 
 The script will continuously monitor the SSH log file and display notifications when relevant events occur. Adjust the target strings and customize notification messages based on your preferences.
 
